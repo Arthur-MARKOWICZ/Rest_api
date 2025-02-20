@@ -26,4 +26,11 @@ public class ClienteController {
         var cliente = clienteRepository.getReferenceById(dados.id());
         cliente.atualizarInformacoes(dados);
     }
+    @DeleteMapping("/{id}")
+    @Transactional
+    public void excluir(@PathVariable Long id){
+        var cliente = clienteRepository.getReferenceById(id);
+        cliente.excluir();
+
+    }
 }
