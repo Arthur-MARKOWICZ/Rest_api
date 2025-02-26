@@ -1,4 +1,4 @@
-package Api.Rest.api.rest.Cliente;
+package Api.Rest.api.rest.domain.Cliente;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

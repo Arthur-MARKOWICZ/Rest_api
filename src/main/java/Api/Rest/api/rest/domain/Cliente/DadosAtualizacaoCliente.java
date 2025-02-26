@@ -1,9 +1,9 @@
-package Api.Rest.api.rest.Funcionario;
+package Api.Rest.api.rest.domain.Cliente;
 
-import Api.Rest.api.rest.Endereco.DadosEndereco;
+import Api.Rest.api.rest.domain.Endereco.DadosEndereco;
 import jakarta.validation.constraints.NotNull;
 
-public record DadosAtualizacaoFuncionario(
+public record DadosAtualizacaoCliente(
         @NotNull
         Long id,
 
@@ -11,7 +11,6 @@ public record DadosAtualizacaoFuncionario(
         String telefone,
 
         String email,
-        String cargaHoraria,
         DadosEndereco endereco
 ) {
 }

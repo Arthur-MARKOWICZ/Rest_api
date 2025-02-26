@@ -1,4 +1,4 @@
-package Api.Rest.api.rest.Funcionario;
+package Api.Rest.api.rest.domain.Funcionario;
 
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

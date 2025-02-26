@@ -1,6 +1,6 @@
-package Api.Rest.api.rest.Funcionario;
+package Api.Rest.api.rest.domain.Funcionario;
 
-import Api.Rest.api.rest.Endereco.DadosEndereco;
+import Api.Rest.api.rest.domain.Endereco.DadosEndereco;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;

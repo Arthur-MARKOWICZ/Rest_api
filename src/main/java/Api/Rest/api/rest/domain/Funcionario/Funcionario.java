@@ -1,7 +1,6 @@
-package Api.Rest.api.rest.Funcionario;
+package Api.Rest.api.rest.domain.Funcionario;
 
-import Api.Rest.api.rest.Cliente.DadosAtualizacaoCliente;
-import Api.Rest.api.rest.Endereco.Endereco;
+import Api.Rest.api.rest.domain.Endereco.Endereco;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
